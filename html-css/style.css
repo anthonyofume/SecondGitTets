@@ -1,0 +1,8 @@
+#table td {
+  padding: 10px;
+  border: 2px solid gray;
+}
+#clickButton {
+  width: 250px;
+  height: 100px;
+}
