@@ -1,0 +1,24 @@
+Apps i used daily
+1. Whatsapp
+2. Twitter
+3. Instagram
+4. Dawn of Titans
+5. Open Camera
+6. Lightroom
+
+Deleted App
+
+let topStories = document.querySelectorAll('li >a >h3');
+
+for(let count = 0; count<topStories.length; count ++){
+	document.write(topStories[count].textContent);
+    document.write("<br />");
+}
+
+topStories = document.querySelectorAll('li >a >h3');
+response ={};
+
+for(let count = 0; count<topStories.length; count++){
+	response[count] = topStories[count].textContent;
+}
+document.write(JSON.stringify(response));
